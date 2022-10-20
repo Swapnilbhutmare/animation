@@ -3,7 +3,7 @@
     padding: 0px;
 }
 main{
-    height: 100vh;
+    height: 400px;
     /* background-color: aqua; */
     background-image: url(images/sky.jpg);
     background-repeat: no-repeat;
@@ -34,20 +34,20 @@ animation: road 5s linear infinite;
 }
 
 .tree{
-    height: 500px;
+    height: 300px;
     width: 200%;
     background-image: url(images/tree8.jpg);
     background-repeat: repeat-x;
     position: absolute;
-    bottom: -150px;
+    bottom: 50px;
     left: 0%;
     display: inline;
     background-repeat: repeat-x;
-    z-index:1;
+    z-index: index 1;;
     animation: tree1 5s linear infinite;
 }
 .tree img{
-    height: 800px;
+    height: 700px;
 }
 @keyframes tree1{
     100%{
